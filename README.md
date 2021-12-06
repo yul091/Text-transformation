@@ -77,23 +77,6 @@ To run our evaluation on OOD data with text transformations:
 bash experiments.sh
 ```
 
-Original evaluation results are reported as follows: **Test accuracy reproduced here (Test accuracy reported by the paper)**
-
-To find the settings for experiments, refer to `experiments.sh`.
-
-|                                 |      MR     |     SST_1      |     SST_2      |       ag_news  |     sogu_news     |      db_pedia      |   yelp_review_full   | yelp_review_polarity | yahoo_answer | amazon_review_full | amazon_review_polarity |
-|:-------------------------------:|:-----------:|:--------------:|:--------------:|:--------------:|:-----------------:|:------------------:|:--------------------:|:------------------:|:------------:|:------------------:|:----------------------:|
-|WordCNN (rand)                   | 69.4 (76.1) |         (45.0) |         (82.7) |    88.3        |                   |                    |           92.5       |                    |              |                    |                        |
-|WordCNN (static)                 |      (81.0) |         (45.5) |         (86.8) |                |                   |                    |                      |                    |              |                    |                        |
-|WordCNN (non-static)             |      (81.5) |         (48.0) |         (87.2) |                |                   |                    |                      |                    |              |                    |                        |
-|WordCNN (multichannel)           |      (81.1) |         (47.4) |         (88.1) |                |                   |                    |                      |                    |              |                    |                        |
-|CharCNN (small)                  |             |                |                |                |                   |                    |                      |                    |              |                    |                        |
-|CharCNN (large)                  |             |                |                |                |                   |                    |                      |                    |              |                    |                        |
-|VDCNN (29-layers)                |             |                |                |                |                   |                    |                      |                    |              |                    |                        |
-|QRNN (k=2)                       |      (91.4) |                |                |                |                   |                    |                      |                    |              |                    |                        |
-|QRNN (k=4)                       |      (91.1) |                |                |                |                   |                    |                      |                    |              |                    |                        |
-
-
 ## References
 - [Shawn1993's CNNs for Sentence Classification in PyTorch](https://github.com/Shawn1993/cnn-text-classification-pytorch)
 - [ArdalanM's nlp-benchmarks](https://github.com/ArdalanM/nlp-benchmarks)
