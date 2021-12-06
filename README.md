@@ -70,7 +70,14 @@ Refer to `python main.py --help` and `python main.py {WordCNN, CharCNN, VDCNN, Q
 
 
 ## Experiments
-Results are reported as follows: **Test accuracy reproduced here (Test accuracy reported by the paper)**
+
+To run our evaluation on OOD data with text transformations:
+
+```
+bash experiments.sh
+```
+
+Original evaluation results are reported as follows: **Test accuracy reproduced here (Test accuracy reported by the paper)**
 
 To find the settings for experiments, refer to `experiments.sh`.
 
